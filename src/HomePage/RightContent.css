@@ -1,0 +1,57 @@
+.right-content-container {
+  justify-content: start;
+  margin-left: 70px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.about-me-container {
+  padding: 0px 20px 0;
+  background-color: transparent;
+}
+
+.about-me-container p {
+  line-height: 1.6;
+  color: #a0a0c5;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.link-udemy {
+  color: #f8f1ff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.link-udemy:hover {
+  color: hsl(303, 100%, 68%);
+  text-decoration: none;
+}
+
+.udemy-logo {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 50px;
+  height: auto;
+}
+
+.link-udemy:hover .udemy-logo {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .about-me-container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin-left: -70px;
+
+  }
+}
+

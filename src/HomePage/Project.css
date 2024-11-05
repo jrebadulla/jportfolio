@@ -1,0 +1,37 @@
+.project-image {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, border 0.3s ease;
+  transform-origin: center;
+}
+
+.Exp-container img {
+  border: 2px solid rgb(71, 70, 70);
+  margin-right: 10px;
+}
+
+.Exp-container img:hover {
+  border: 2px solid gray;
+}
+
+.job-card .link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 20px;
+}
+
+.job-card .link:hover {
+  color: hsl(303, 100%, 68%);
+  transform: scale(1.2);
+}
+
+#projects {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#projects p {
+  text-align: justify;
+}
